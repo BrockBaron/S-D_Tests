@@ -16,7 +16,6 @@ Only comment on errors that would stop the tests running.
 
 #ERRORS
 #else is missing ':'
-#value is not defined anywhere
 #if statement needs '==' for boolean to work
 
   def check_for_ace(self, card):
@@ -48,6 +47,7 @@ Only comment on errors that would stop the tests running.
 # total in the return could be refactored into a f sting.
 #returning string can't relate to any callable item.
 #indentations of 'def' could be an issue if in a class.
+# return statement will return a string with an integer, needs to be an f"string" with total passed in, indenetaion is incorrect as well
 def cards_total(self, cards):
   total
   for card in cards:
